@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <drow-polygon></drow-polygon>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DrowPolygon from './components/DrowPolygon.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    DrowPolygon,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    html,
+    #app,
+    body,
+    .home{
+        width: 100%;
+        height: 300%;
+        margin: 0;
+        padding: 0;
+    }
 </style>
